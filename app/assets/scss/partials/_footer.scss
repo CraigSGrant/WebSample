@@ -1,0 +1,45 @@
+
+footer {
+  background-color: $slate-grey;
+  color: white;
+  padding: 10px;
+
+
+  ul {
+    padding-left: 0;
+  }
+
+  .footer-container {
+    @include outer-container;
+    padding-bottom: 50px;
+
+    .info,
+    .social {
+      @include span-columns(6);
+    }
+  }
+
+
+  .social {
+    text-align: right;
+  }
+
+  .ss-icon {
+      font-family: $social;
+      display: inline-block;
+      height: 58px;
+      width: 60px;
+      line-height: 60px;
+      font-size: 2em;
+  }
+
+  a {
+    color: white;
+  }
+
+}
+
+
+
+
+

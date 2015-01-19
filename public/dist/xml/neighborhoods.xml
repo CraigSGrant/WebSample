@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<neighborhoods>
+  <neighborhood>
+    <image>/dist/images/Ballard.jpg</image>
+    <title>BALLARD</title>
+    <page>http://google.com</page>
+    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+  </neighborhood>
+  <neighborhood>
+    <image>/dist/images/Greenlake.jpg</image>
+    <title>Greenlake</title>
+    <page>http://google.com</page>
+    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+  </neighborhood>
+  <neighborhood>
+    <image>/dist/images/Fremont.jpg</image>
+    <title>Fremont</title>
+    <page>http://google.com</page>
+    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+  </neighborhood>
+  <neighborhood>
+    <image>/dist/images/Queen Anne.jpg</image>
+    <title>Queene Anne</title>
+    <page>http://google.com</page>
+    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+  </neighborhood>
+  <neighborhood>
+    <image>/dist/images/Wallingford.jpg</image>
+    <title>Wallingford</title>
+    <page>http://google.com</page>
+    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+  </neighborhood>
+  <neighborhood>
+    <image>/dist/images/Wallingford.jpg</image>
+    <title>Crown Hill</title>
+    <page>http://google.com</page>
+    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+  </neighborhood>
+  <neighborhood>
+    <image>/dist/images/Wallingford.jpg</image>
+    <title>Sand Point</title>
+    <page>http://google.com</page>
+    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+  </neighborhood>
+  <neighborhood>
+    <image>/dist/images/Wallingford.jpg</image>
+    <title>Medina</title>
+    <page>http://google.com</page>
+    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+  </neighborhood>
+  <neighborhood>
+    <image>/dist/images/Wallingford.jpg</image>
+    <title>Mercer island</title>
+    <page>http://yahoo.com</page>
+    <description>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</description>
+  </neighborhood>
+</neighborhoods>

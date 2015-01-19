@@ -1,0 +1,21 @@
+// Define your breakpoints
+$x-large: new-breakpoint(max-width 1920px);
+$large: new-breakpoint(max-width 1280px);
+$medium-large: new-breakpoint(max-width 1024px);
+$medium: new-breakpoint(max-width 768px);
+$small-medium: new-breakpoint(max-width 600px);
+$mobile: new-breakpoint(max-width 320px);
+$anti-mobile: new-breakpoint(max-width 480px);
+
+//define font sizes
+$x-large-font: em(44); /* headers only */
+$large-font: em(28); /* headers only */
+$medium-large-font: em(22); /* transitional header only */
+$medium-font: em(18);
+$small-font: em(14);
+
+
+// line heights
+$default-lh: 1.6em;
+
+

@@ -1,0 +1,57 @@
+* {
+    line-height: $default-lh;
+ul {
+    list-style-type: none;
+}
+}
+
+p {
+     font-size: $medium-font;
+     font-family: $text;
+     @include media($small-medium) {
+
+    }
+}
+
+h1 {
+    font-size: $x-large-font;
+    margin-bottom: 5px;
+    font-family: $header;
+    color: $green;
+}
+
+h2 {
+    font-size: $large-font;
+    font-weight: 100;
+    font-family: $header;
+    color: $green;
+    margin-top: 10px;
+    margin-bottom: 0;
+
+    &:hover {
+        color: $orange;
+        text-decoration: none;
+    }
+}
+
+h3 {
+    font-size:  $medium-large;
+    font-family: $header;
+    color: $green;
+
+    &:hover {
+        color: $orange;
+        text-decoration: none;
+    }
+
+}
+
+a {
+    text-decoration: none;
+    font-weight: normal;
+
+    &:hover {
+        color: $orange;
+        text-decoration: none;
+    }
+}

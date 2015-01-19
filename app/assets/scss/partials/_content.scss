@@ -1,0 +1,158 @@
+.primary-content-block {
+    @include outer-container;
+    .content-header {
+      @include span-columns(10);
+      margin: 35px 0 35px 0;
+
+    }
+}
+
+.sub-content-wrapper{
+    @include outer-container;
+
+    article {
+      @include span-columns(6);
+    }
+}
+
+.sub-info {
+  margin-top: 2.8em;
+  padding-bottom: 3em;
+
+
+}
+
+.sub-content-block {
+  background-color: $green;
+
+    h1 {
+      color: $orange;
+      line-height: 1.2em;
+    }
+
+    p {
+      color: white;
+      font-family: $text;
+    }
+
+    form {
+  background:#fff;
+  width:30em;
+  margin:5em auto;
+  padding: 25px 0 25px 0;
+}
+
+fieldset {
+  border:none;
+  text-align: baseline;
+  padding: 1em 1em 1em 1em;
+}
+
+
+.submit {
+  width: 30%;
+  background-color: $orange;
+  color: white;
+  font-family: $header;
+  font-size: em(28);
+  padding: 3%;
+  margin-top: 25px;
+  float: left;
+  border-bottom: none;
+
+  &:hover {
+    color: $green;
+  }
+}
+
+
+input {
+  width:20em;
+  width:85%;
+  font-family: $text;
+  float: right;
+  font-size: em(20);
+  border: none;
+  border-bottom:solid 1px rgb(223,230,226);
+  outline:none; /* prevents textbox highlight in chrome */
+
+    &:focus {
+  outline:none;
+  background: white;
+  border-bottom:solid 1px $green;
+}
+}
+
+input + label {
+  display: inline-block;
+  width: 2em;
+  font-family: $text;
+  cursor: text;
+  font-size: em(20);
+  color: $green;
+  top:1.8em;
+  left:2.3em;
+  text-align: right;
+
+}
+
+input:focus + label,
+label.stay {
+
+}
+}
+
+.content-item {
+  @include span-columns(3.9);
+
+  h2 {
+    margin-top: 30px;
+  }
+
+  p {
+    font-size: em(12);
+    margin: 0;
+    padding-bottom: 35px;
+  }
+
+  img {
+    height: 336px;
+    width: 336px;
+    width: 100%;
+    display: block;
+
+  }
+}
+
+.content-footer {
+  padding: 0px 0 65px 0;
+}
+
+.content-grid {
+  h1 {
+    margin-top: 55px;
+    margin-bottom: 30px;
+  }
+}
+
+.content-footer, .content-header{
+  @include outer-container;
+  a {
+    font-family: $text;
+    font-size: em(20);
+    color: $orange;
+    text-decoration: underline;
+  }
+
+  :hover {
+    color: $green;
+  }
+
+}
+
+video {
+  width: 100%;
+
+}
+
+

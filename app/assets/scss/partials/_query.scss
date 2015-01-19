@@ -1,0 +1,5 @@
+$medium-large: new-breakpoint(min-width 1280px);
+$medium: new-breakpoint(min-width 768px);
+$small-medium: new-breakpoint(max-width 600px);
+$mobile: new-breakpoint(max-width 360px);
+

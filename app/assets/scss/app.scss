@@ -1,0 +1,23 @@
+//reset
+
+@import "partials/_reset";
+
+//utils
+@import "vendor/bourbon/bourbon";
+@import "vendor/neat/neat";
+
+//dependancies
+@import "partials/_type";
+@import "partials/_mixins";
+@import "partials/_vars";
+@import "partials/_colors";
+@import "partials/_base";
+
+//partials
+@import "partials/_content";
+@import "partials/_core";
+@import "partials/_footer";
+
+@import "partials/_header";
+@import "partials/_nav";
+@import "partials/_query";
