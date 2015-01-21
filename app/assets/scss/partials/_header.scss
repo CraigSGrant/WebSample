@@ -4,8 +4,16 @@
 	display: block;
   margin-top: -320px;
 
+  @include media($devices) { //used at device breakpoint
+    margin-top: -270px;
+  }
+
 	img {
 		max-width: 100%;
 
 	}
 }
+
+
+
+

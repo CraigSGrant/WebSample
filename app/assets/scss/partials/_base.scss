@@ -8,9 +8,11 @@ ul {
 p {
      font-size: $medium-font;
      font-family: $text;
-     @include media($small-medium) {
 
-    }
+     @include media($mobile) { //used at device breakpoint
+    font-size: $medium-font * 2;
+  }
+
 }
 
 h1 {
@@ -18,6 +20,10 @@ h1 {
     margin-bottom: 5px;
     font-family: $header;
     color: $green;
+
+    @include media($mobile) { //used at device breakpoint
+    font-size: $x-large-font * 2;
+  }
 }
 
 h2 {
@@ -27,6 +33,10 @@ h2 {
     color: $green;
     margin-top: 10px;
     margin-bottom: 0;
+
+    @include media($mobile) { //used at device breakpoint
+    font-size: $large-font * 2;
+  }
 
     &:hover {
         color: $orange;

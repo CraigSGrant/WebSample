@@ -2,7 +2,13 @@
     @include outer-container;
     .content-header {
       @include span-columns(10);
-      margin: 35px 0 35px 0;
+        margin: 35px 0 35px 0;
+
+      @include media($devices) { //used at device breakpoint
+        margin-left: 4%;
+
+
+ }
 
     }
 }
@@ -12,6 +18,15 @@
 
     article {
       @include span-columns(6);
+
+      @include media($devices) { //used at device breakpoint
+      margin-left: 4%;
+      @include span-columns(5);
+ }
+    @include media($mobile) { //used at device breakpoint
+    @include span-columns(11);
+  }
+
     }
 }
 
@@ -24,6 +39,7 @@
 
 .sub-content-block {
   background-color: $green;
+
 
     h1 {
       color: $orange;
@@ -40,6 +56,18 @@
   width:30em;
   margin:5em auto;
   padding: 25px 0 25px 0;
+
+  @include media($devices) { //used at device breakpoint
+      width:27em;
+ }
+
+  @include media($mobile) { //used at device breakpoint
+      width:100%;
+      margin: 0 0 25% 0;
+      font-size: em(32);
+
+  }
+
 }
 
 fieldset {
@@ -67,7 +95,6 @@ fieldset {
 
 
 input {
-  width:20em;
   width:85%;
   font-family: $text;
   float: right;
@@ -105,6 +132,14 @@ label.stay {
 .content-item {
   @include span-columns(3.9);
 
+  @include media($devices) { //used at device breakpoint
+    @include span-columns(5.8);
+  }
+
+  @include media($mobile) { //used at device breakpoint
+    @include span-columns(12);
+  }
+
   h2 {
     margin-top: 30px;
   }
@@ -113,6 +148,12 @@ label.stay {
     font-size: em(12);
     margin: 0;
     padding-bottom: 35px;
+
+    @include media($mobile) {
+      font-size: 2.125em;
+      width: 90%;
+      padding-bottom: 70px;
+    }
   }
 
   img {
@@ -121,11 +162,21 @@ label.stay {
     width: 100%;
     display: block;
 
+    @include media($mobile) { //used at device breakpoint
+      width: 96%;
+      height: 96%;
+      display: block;
+  }
+
   }
 }
 
 .content-footer {
   padding: 0px 0 65px 0;
+
+    @include media($devices) { //used at device breakpoint
+    padding-left: 4%;
+ }
 }
 
 .content-grid {
@@ -133,6 +184,9 @@ label.stay {
     margin-top: 55px;
     margin-bottom: 30px;
   }
+  @include media($devices) { //used at device breakpoint
+    margin-left: 4%;
+ }
 }
 
 .content-footer, .content-header{
@@ -142,12 +196,19 @@ label.stay {
     font-size: em(20);
     color: $orange;
     text-decoration: underline;
+
   }
 
   :hover {
     color: $green;
   }
 
+}
+
+#load-more {
+  @include media($mobile) {
+      font-size: em(40);
+    }
 }
 
 video {

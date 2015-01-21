@@ -48,6 +48,12 @@ $(document).ready(function() {
     loadMoreTemplate($(this));
   });
 
+  //add listener to hammie
+  $('.hammie').on('click', function() {
+    $(this).toggleClass("is-close-menu-btn");
+    $('#main-nav').toggleClass('is-open');
+  });
+
   //load neighborhoods
   $.ajax({
     url: '/dist/xml/neighborhoods.xml',
@@ -78,4 +84,7 @@ $(document).ready(function() {
   });
 
 });
+
+
+
 

@@ -1,7 +1,7 @@
 <header class="navigation-header">
 	<div class="clear-container">
 		<section class="logo">
-			<a href="">
+			<a href="javascript:void(0)">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 					 viewBox="0 0 887 834.4" enable-background="new 0 0 887 834.4" xml:space="preserve">
 				<rect y="0" width="887" height="834.4"/>
@@ -27,8 +27,11 @@
 				</svg>
 			</a>
 		</section>
-		<section class="nav-wrapper">
-			<nav class="nav">
+		<section class="hammiewrapper">
+			<a href="javascript:void(0)" class="hammie"><span></span></a>
+		</section>
+		<section id="nav-wrapper" class="nav-wrapper">
+			<nav id="main-nav" class="nav">
 				<ul>
 					<li>
 	            <a href="">About</a>
@@ -47,8 +50,6 @@
 	        </li>
 				</ul>
 			</nav>
-		</section>
-		<section class="mobile-burger">
 		</section>
 	</div>
 </header>

@@ -7,6 +7,7 @@
 @import "vendor/neat/neat";
 
 //dependancies
+@import "partials/_query";
 @import "partials/_type";
 @import "partials/_mixins";
 @import "partials/_vars";
@@ -20,4 +21,4 @@
 
 @import "partials/_header";
 @import "partials/_nav";
-@import "partials/_query";
+
